@@ -194,3 +194,36 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.top_ct{
+    display: flex;
+    flex-direction: column;
+} 
+.middle_ct{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ctbox {
+    width: 45%; 
+    border-bottom: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+.ctbox img{
+    width: 100%;
+}
+
+.ct_btn{
+    border:1px solid red;
+    border-radius: 10px;
+    text-align: center;
+    width: 35%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.lst_ct{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
